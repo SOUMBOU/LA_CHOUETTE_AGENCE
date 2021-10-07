@@ -100,11 +100,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(67, 12, 196);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgb(67, 12, 196);
 }
 
 .d-bloc .icon-round,
@@ -150,16 +150,16 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(67, 12, 196);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(35, 3, 110);
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(67, 12, 196);
     border-color: rgba(255, 255, 255, 1);
 }
 
@@ -651,7 +651,37 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #a88a05!important;
+    color: #464644!important;
+}
+.bloc-agence{
+    height: 70px;
+    width: 180px;
+    background-color: #FFF;
+    position: relative;
+    left: 195px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.citation {
+font-style: italic;
+font-size: large;
+font-weight: bold;
+}
+.us {
+    height: 120px;
+    width: 600px;
+    background-color: #FFF;
+    position: relative;
+    right: 55px;
+}
+.ready {
+    height: 58px;
+    width: 405px;
+    background-color: #FFF;
+    position: relative;
+    left: 185px;
+    border-radius: 10px;
 }
 
 .container {
@@ -736,7 +766,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #6914d8!important;
     font-size: 1.8rem;
 }
 
@@ -772,7 +802,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #0646bd;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -780,8 +810,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #0646bd;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #530ed3!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -798,7 +828,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #0646bd!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -825,12 +855,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-.mg-text {
-    height: 10px;
-    width: 35px;
-    color: rgb(231, 9, 9);
-    
-}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;

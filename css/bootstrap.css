@@ -228,9 +228,7 @@ td,
 th {
     padding: 0
 }
-.keywords{
-    style="color:#cccccc;font-size:100%;
-}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
@@ -1660,9 +1658,7 @@ mark {
 }
 
 .text-center {
-    text-align: center;
-    font-size: 1.8rem;
-    
+    text-align: center
 }
 
 .text-justify {
